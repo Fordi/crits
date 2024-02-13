@@ -38,11 +38,11 @@
       "You are able to maneuver towards your opponent while attacking and harass them.",
       "After your attack you can choose to automatically succeed in grappling your opponent if you have a free hand, or shoving your opponent if both hands are in use."
     ],
-    "50-59": [
+    "50-62": [
       "You attempt to disarm your opponent.",
       "You are able to take the disarm action after your attack"
     ],
-    "65-69": [
+    "63-69": [
       "You kick your target's weapon out of their hands.",
       "You are able to take the disarm action after your attack, and can steal your opponents weapon if you have a free hand. Otherwise you can knock it up to 20 feet away."
     ],
