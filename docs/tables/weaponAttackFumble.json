@@ -1,0 +1,70 @@
+{
+  "name": "Weapon attack fumble",
+  "d": "1d100",
+  "ranges": {
+    "1-1": [
+      "You are embarassed by your poor showing, but nothing remarkable happens.",
+      "You miss your attack."
+    ],
+    "2-5": [
+      "You lose your combat footing, exposing yourself to your target.",
+      "Your target has advantage on their first attack roll against you next round."
+    ],
+    "6-9": [
+      "You lose your combat footing, exposing yourself to your enemies.",
+      "Your enemies have advantage on their first attack roll against you next round."
+    ],
+    "10-14": [
+      "You lose your combat footing, and have difficulty recovering.",
+      "Your enemies have advantage on their attack rolls against you until the end of your next turn."
+    ],
+    "15-19": [
+      "Melee: You get tangled with your enemy and fall over. Ranged: You spill your quiver.",
+      "Melee: You are knocked prone and your movement is reduced to 0. Your target must succeed a DC 10 dexterity check or they are also knocked prone. Ranged: You must pick up arrows individually from the ground using your \"environmental interaction\", or the \"Use an Object\" action to nock your bow."
+    ],
+    "20-29": [
+      "You lose your balance while attacking.",
+      "You fall prone and your movement is reduced to 0."
+    ],
+    "30-39": [
+      "As you attack your opponent you begin to fear that they are the superior combatant.",
+      "Disadvantage on your next attack roll against your target."
+    ],
+    "40-49": [
+      "You miss an attack and gaze upon the chaos of the battle, causing your confidence to falter.",
+      "Disadvantage on your next attack roll against any target."
+    ],
+    "50-59": [
+      "You lose your grip as you attack.",
+      "Roll a DC 10 Dexterity Check, on failure you drop your weapon at your feet."
+    ],
+    "60-69": [
+      "Melee: The weapon slips from your hand as you attack. Ranged: Your ammunition gets lodged in its container.",
+      "Melee: Roll a DC 10 Dexterity Check, on failure you throw your weapon into your enemy's space. DM determines where the item is thrown on large sized or greater creatures. Ranged: You must use an action to organize the ammunition in its case before you can make another ranged attack."
+    ],
+    "70-79": [
+      "Melee: You lunge past an enemy exposing yourself to his attack. Ranged: Your missile startles your allies near your target.",
+      "Melee: Enemy you were attacking is able to use their reaction to perform and attack of opportunity. Ranged: the target can perform an opportunity attack on any ally within melee range."
+    ],
+    "80-84": [
+      "Missing what you thought was a critical blow causes you to panic.",
+      "End your current turn and you are surprised until the end of your next turn."
+    ],
+    "85-89": [
+      "You attack wildly and lose track of the fight around you.",
+      "End your turn and move to the bottom of the initiative order at the start of the next round."
+    ],
+    "90-94": [
+      "You lose your footing while attacking and fall to the ground bumping your head.",
+      "You fall prone. Roll a DC 10 constitution save, on failure you take 1d6 damage and are knocked unconscious for 1 minute or until you receive damage from any source. On success take half damage and you remain conscious."
+    ],
+    "95-99": [
+      "You lose your footing while attacking and fall head first.",
+      "You fall prone. Roll a DC 15 constitution save, on failure you take 2d6 damage and are knocked unconscious for 1 minute or until you receive damage from any source. On success take half damage and you remain conscious."
+    ],
+    "100-100": [
+      "You lose your footing while attacking and slam your head into the ground.",
+      "You fall prone, take 3d6 damage, and become unconscious for 1 minute or until you receive damage from any source."
+    ]
+  }
+}
