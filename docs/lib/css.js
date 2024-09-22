@@ -1,15 +1,15 @@
-const joinClass = (...classes) =>
-  Array.from(
+export const joinClass = (...classes) =>
+  [...
     new Set(
       classes
-        .filter((a) => !!a)
         .join(" ")
         .split(" ")
         .reverse()
     )
-  )
+  ]
+    .filter((a) => !!a)
     .reverse()
-    .join(" ");
+   .join(" ");
 /**
  * # `classes`
  *
@@ -90,7 +90,7 @@ const createStylesheet = (str) => {
   const styles = {};
   cssRules.forEach((rule) => Object.assign(styles, insertRule(rule, rid)));
   Object.keys(styles).forEach((name) => {
-    styles[name] = classes(styles[name]);
+    styles[name] = joinClass(styles[name]);
   });
   return styles;
 };

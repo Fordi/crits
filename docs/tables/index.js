@@ -57,8 +57,8 @@ export const rollTable = ({ name, d, ranges }) => {
       }
     };
   });
-  const tableRoller = () => {
-    return { name, d, ranges, ...tableRoller.lookup(rollDice().sum) };
+  const tableRoller = (n = undefined) => {
+    return { name, d, ranges, ...tableRoller.lookup(n ?? rollDice().sum) };
   };
 
   tableRoller.lookup = (n) => {
