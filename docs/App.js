@@ -63,7 +63,7 @@ export default () => {
   const [currentTable, setCurrentTable] = useState(null);
   const [lastRoll, setLastRoll] = useState(null);
   const updateRoll = (e) => {
-    const rollValue = Math.min(99, Math.max(0, parseInt(e.target.value)));
+    const rollValue = Math.min(100, Math.max(1, parseInt(e.target.value)));
     setLastRoll(tables[currentTable](rollValue));
   }
   return html`
